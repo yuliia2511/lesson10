@@ -2,8 +2,17 @@ html {
 font-family: 'Montserrat', sans-serif;
 }
 
+* {
+    max-width: 1440px;
+}
+
+body {
+    box-sizing: border-box;
+    max-width: 1440px;
+}
+
 [class*=´container´] {
-max-width: 1200px;
+max-width: 1440px;
 margin: 0 auto;
 }
 
@@ -15,6 +24,7 @@ width: 100%;
 height: 80px;
 align-items: center;
 margin-bottom: 70px;
+margin-left: 10px;
 }
 
 .navigation-list {
@@ -69,6 +79,7 @@ margin-left: 32px;
 
 .about-us {
     width: 50%;
+    
 }
 
 .about-title {
@@ -80,11 +91,11 @@ color: #2F281E;
 width: 500px;
 height: 110px;
 margin-top: 97px;
-margin-left: 220px;
+margin-left: 120px;
 }
 
 .about-par {
-margin-left: 220px;
+margin-left: 120px;
 font-style: normal;
 font-weight: 400;
 font-size: 18px;
@@ -104,7 +115,7 @@ background: #FF9900;
 border-radius: 4px;
 width: 180px;
 height: 50px;
-margin-left: 220px;
+margin-left: 120px;
 margin-top: 100px;
 }
 
@@ -130,6 +141,7 @@ margin-left: 5%;
 margin-bottom: 50px;
 color: #2F281E;
 flex-wrap: wrap;
+padding-top: 99px;
 }
 
 .card-list {
@@ -146,8 +158,9 @@ align-items: flex-start;
 width: 270px;
 height: 175px;
 line-height: 20px;
-margin-left: 220px;
-margin-right: 150px;
+margin-left: 120px;
+margin-right: -24px;
+padding-bottom: 70px;
 }
 
 .click-item,
@@ -198,9 +211,8 @@ color: #FFFFFF;
 display: flex;
 flex-direction: row;
 justify-content: center;
-align-items: center;
-margin-top: 170px;  
-margin-bottom: 0px; 
+align-items: center; 
+margin-bottom: 10px; 
 }
 
 .footer-list {
@@ -210,17 +222,16 @@ justify-content: space-between;
 align-items: center;
 padding-top: 60px;
 padding-bottom: 70px;
+width: 1440px;
 }
 
 .footer-column {
 display: flex;
 flex-direction: column;
-align-items: flex-start;
 width: 290px;
 height: 175px;
 line-height: 20px;
-margin-left: 220px; 
-margin-right: 150px;
+margin-left: 120px; 
 margin-bottom: 70px;
 }
 
@@ -243,7 +254,7 @@ margin-bottom: 16px;
 display: flex;
 flex-direction: column;
 align-items: flex-start;
-width: 76px;
+width: 140px;
 height: 149px;
 font-style: normal;
 font-weight: 500;
